@@ -1,15 +1,18 @@
 {
-	"main": "dist/index.js",
-	"license": "MIT",
-	"devDependencies": {
-		"@types/react": "^16.8"
-	},
-	"peerDependencies": {
-		"framer": "^1.0",
-		"react": "^16.8"
-	},
-	"framer": {
-		"id": "ca2c91e9-49f6-430a-b631-8f6feb627b91"
-	},
-	"author": "Addison Schultz"
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8"
+  },
+  "peerDependencies": {
+    "framer": "^1.0",
+    "react": "^16.8"
+  },
+  "framer": {
+    "id": "ca2c91e9-49f6-430a-b631-8f6feb627b91"
+  },
+  "author": "Addison Schultz",
+  "dependencies": {
+    "polymer-framer-components": "^1.0.1"
+  }
 }
