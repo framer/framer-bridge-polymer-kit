@@ -37,10 +37,10 @@ lit-html@^1.0.0:
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.1.2.tgz#2e3560a7075210243649c888ad738eaf0daa8374"
   integrity sha512-FFlUMKHKi+qG1x1iHNZ1hrtc/zHmfYTyrSvs3/wBTvaNtpZjOZGWzU7efGYVpgp6KvWeKF6ql9/KsCq6Z/mEDA==
 
-polymer-framer-components@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/polymer-framer-components/-/polymer-framer-components-1.0.4.tgz#86b6f2f348375f46d9d32833fbca0783d9d43a26"
-  integrity sha512-/THYprfaT+jKdzmICuI59YyIGuRAAmXyFqKQjJzixJI1nrwxip+mt4K1MHB66oB0X0PUhQ/icLLch/Ck+79BtQ==
+polymer-framer-components@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/polymer-framer-components/-/polymer-framer-components-1.1.0.tgz#131354116a61ddfcca1750c27b90ff1217c1a486"
+  integrity sha512-Ze3fKqwZViCnTdFqZpIf/YoWU4xy8duHgNcWeRJ75alPEi55BxEANdddNb/QDBIXFVjZLmajs35hvuywFoIJgQ==
   dependencies:
     "@webcomponents/webcomponentsjs" latest
     lit-element latest

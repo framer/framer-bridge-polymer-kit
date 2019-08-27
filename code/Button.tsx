@@ -16,6 +16,7 @@ export function Button(props: Props) {
       <my-button
         text={props.text}
         fluid={props.fluid}
+        // @TODO Fix disabled styling
         // disabled={props.disabled}
         kind={props.kind}
       />
