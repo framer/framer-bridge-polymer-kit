@@ -13,6 +13,6 @@
   },
   "author": "Addison Schultz",
   "dependencies": {
-    "polymer-framer-components": "^1.0.1"
+    "polymer-framer-components": "^1.0.4"
   }
 }
