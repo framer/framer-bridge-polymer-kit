@@ -3,10 +3,8 @@
     "__class" : "RootNode",
     "children" : [
       {
-        "__class" : "FrameNode",
-        "aspectRatio" : 1,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
         "bottom" : null,
         "centerAnchorX" : 0,
         "centerAnchorY" : 0,
@@ -14,40 +12,31 @@
 
         ],
         "clip" : true,
+        "codeComponentIdentifier" : ".\/Local\/Button2.tsx_Component",
+        "codeComponentProps" : {
+
+        },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
 
         ],
-        "fillColor" : "white",
-        "fillEnabled" : true,
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
         "fillImage" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "guidesX" : [
-
-        ],
-        "guidesY" : [
-
-        ],
-        "height" : 500,
+        "height" : 466,
         "heightType" : 0,
-        "id" : "aiqL5U0Ox",
+        "id" : "eWeYW2jTX",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "isExternalMaster" : null,
-        "isMaster" : false,
-        "isTarget" : false,
-        "left" : -134,
+        "left" : 1980,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "sKTuMQqvX",
@@ -59,12 +48,11 @@
         "radiusPerCorner" : false,
         "radiusTopLeft" : 0,
         "radiusTopRight" : 0,
-        "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : -3,
+        "top" : -531,
         "visible" : true,
-        "width" : 500,
+        "width" : 584,
         "widthType" : 0
       }
     ],

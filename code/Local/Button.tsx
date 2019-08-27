@@ -2,7 +2,8 @@ import * as React from "react";
 import { Frame, addPropertyControls, ControlType } from "framer";
 // import { useScript } from "../utils/useScript";
 // import { localPolymerComponents } from "../utils/constants";
-import "polymer-framer-components/src/my-button.js";
+// import { LitElement, html, css } from "lit-element";
+// import "../polymer/button.js";
 // import { url } from "framer/resource";
 
 type Props = {
@@ -25,6 +26,10 @@ export function Button(props: Props) {
   //   if (!loaded) return;
   // }, [loaded, error]);
 
+  React.useEffect(() => {
+    console.log("Mounted");
+  }, []);
+
   // const PolymerButton = React.useMemo(() => {
   //   return (
   //     //@ts-ignore
@@ -43,7 +48,7 @@ export function Button(props: Props) {
     //   {loaded && !error ? PolymerButton : <b>Something went wrong!</b>}
     // </Frame>
     <Frame size={"100%"} background={""}>
-      <my-button text={"Download App"} style={"height: 50px; width: 150px;"} />
+      {/* <my-button text={"Download App"} style={"height: 50px; width: 150px;"} /> */}
     </Frame>
   );
 }
