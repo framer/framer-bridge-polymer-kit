@@ -16,10 +16,8 @@ export function Input(props: Props) {
       <my-input
         value={props.value}
         placeholder={props.placeholder}
-        // @TODO Fix disabled styling
-        // disabled={props.disabled}
-        // @TODO Fix error styling
-        // error={props.error}
+        disabled={props.disabled ? true : undefined}
+        error={props.error ? true : undefined}
       />
     </Frame>
   );

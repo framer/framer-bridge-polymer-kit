@@ -15,9 +15,8 @@ export function Button(props: Props) {
       // @ts-ignore */}
       <my-button
         text={props.text}
-        fluid={props.fluid}
-        // @TODO Fix disabled styling
-        // disabled={props.disabled}
+        fluid={props.fluid ? true : undefined}
+        disabled={props.disabled ? true : undefined}
         kind={props.kind}
       />
     </Frame>

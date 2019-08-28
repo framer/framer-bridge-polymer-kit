@@ -13,10 +13,8 @@ export function Toggle(props: Props) {
       {/* 
       // @ts-ignore */}
       <my-toggle
-      //@TODO Fix disabled handling
-      // disabled={props.disabled}
-      //@TODO Fix on handling
-      // on={props.on}
+        disabled={props.disabled ? true : undefined}
+        on={props.on ? true : undefined}
       />
     </Frame>
   );

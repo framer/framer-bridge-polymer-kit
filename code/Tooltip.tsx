@@ -14,8 +14,7 @@ export function Tooltip(props: Props) {
       // @ts-ignore */}
       <my-tooltip
         arrow={props.arrow}
-        // @TODO Fix error handling
-        // error={props.error}
+        error={props.error ? true : undefined}
         text={props.text}
       />
     </Frame>
