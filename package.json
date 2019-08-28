@@ -1,18 +1,21 @@
 {
-  "main": "dist/index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.8"
-  },
-  "peerDependencies": {
-    "framer": "^1.0",
-    "react": "^16.8"
-  },
-  "framer": {
-    "id": "ca2c91e9-49f6-430a-b631-8f6feb627b91"
-  },
-  "author": "Addison Schultz",
-  "dependencies": {
-    "polymer-framer-components": "^1.1.0"
-  }
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "ca2c91e9-49f6-430a-b631-8f6feb627b91",
+		"displayName": "Polymer Components"
+	},
+	"author": "Addison Schultz",
+	"dependencies": {
+		"polymer-framer-components": "^1.1.0"
+	},
+	"name": "@framer/addison.polymer-components",
+	"version": "1.0.0"
 }
